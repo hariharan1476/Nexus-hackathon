@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container bg-white rounded">
+    <h2>Student Management</h2>
+    <div class="studentData">
+      <form action="" id="form1">
+        <input type="text" placeholder="Enter Reg No" id="reg" required autofocus>
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="1" style="background-color:rgb(39, 168, 232); color:azure" value="ex1">EX 1
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="2" style="background-color:rgb(39, 168, 232); color:azure" value="ex2">EX 2
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="3" style="background-color:rgb(39, 168, 232); color:azure" value="ex3">EX 3
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="4" style="background-color:rgb(39, 168, 232); color:azure" value="ex4">EX 4
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="5" style="background-color:rgb(39, 168, 232); color:azure" value="ex5">EX 5
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="6" style="background-color:rgb(39, 168, 232); color:azure" value="ex6">EX 6
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="7" style="background-color:rgb(39, 168, 232); color:azure" value="ex7">EX 7
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="8" style="background-color:rgb(39, 168, 232); color:azure" value="ex8">EX 8
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="9" style="background-color:rgb(39, 168, 232); color:azure" value="ex9">EX 9
+        <input type="radio" name="exercise" class="btn btn-exercise" data-exercise="10" style="background-color:rgb(39, 168, 232); color:azure" value="ex10">EX 10
+        <button type="submit" class="btn btn-warning" style="background-color:rgb(30, 219, 90); color:azure">Confirm</button>
+      </form>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Exercise No</th>
+          <th>Date & Time</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="wending.js"></script>
+</body>
+</html>
+

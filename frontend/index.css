@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+#aa{
+    position: absolute;
+    width: 100%; 
+    height: 130px;
+    top: 0;
+    left: 0;
+    background:whitesmoke;
+}
+.aal{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.a {
+    width: 100%; 
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.a1 {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+.a1 > h1 { 
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+}
+.a1i {
+    width: 35vw;
+}
+.a2 {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.a22 {
+    width: 60%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px; 
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    
+}
+
+.a22:hover{
+    box-shadow: 0px 20px 40px #00000056;
+}
+
+.a22:hover{
+    border-bottom: px solid rgb(0, 187, 255);
+    
+}
+.a22 > h1 { 
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin: 0;
+}
+.tbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.tbox > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 4px 20px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.tbox > input:hover{
+    box-shadow: 0px 10px 4px #00000056;
+}
+.tbox > label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+
+.tbox > input::placeholder:hover {
+    color: #f0ffff94;
+}
+.b1 {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: rgb(70, 206, 255);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.b1:hover{
+    background:rgb(0, 187, 255);
+    color: white;
+
+}
+.shake-password {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
